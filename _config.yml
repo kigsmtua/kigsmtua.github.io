@@ -9,7 +9,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "A Developer's Journey"
+title                    : "Kiragu"
 title_separator          : "-"
 name                     : "John Kiragu"
 description              : "A developers journey."
