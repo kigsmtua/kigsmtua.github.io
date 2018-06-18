@@ -21,5 +21,8 @@ def substance(sub=True):
 The List of stuff to understand
 
 
+- The items need to come and be up to spec here
+- Pass along the values that need to come alongside here
+
 <!-- Test a gist-->
 {% gist bae42c16a579697b74d2931153706dfe %}
