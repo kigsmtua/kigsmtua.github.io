@@ -10,11 +10,11 @@ site-twitter: #if your site has a twitter account, enter it here
 author: JOHN KIRAGU # add your name
 author-img: kiragu.jpeg # add your photo
 about-author: >
-  Software developer currently working at JUMO WORLD lover of rock music,
-  distributed system and bikes,
+  Software developer currently working at JUMO.
+  lover of rock music, distributed system and bikes,
   I'll sometimes blog about python,haskell,
   compler construction or distributed systems
-  or when I finally decide to learn ocaml and erlang
+  and when I finally decide to learn ocaml and erlang
 social-twitter: kiragu_john
 social-facebook: # add your Facebook handle
 social-github: kigsmtua # add your Github handle
