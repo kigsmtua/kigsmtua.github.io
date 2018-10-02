@@ -1,11 +1,12 @@
 ---
 layout: post
-title: Building a highly concurrent time based queue on redis
+title: Adventures with green threads on the jvm
 date: 2018-09-13 10:00:00 +0300
-description: Building a highly concurrent time based queue recipe on redis
+description: Building a highly concurrent time based queue
 img: workflow.jpg
 tags: [Programming, Java, Concurrency, Fibers, Channels]
 ---
+<!-- The content of this blog  -->
 I was recently faced with a challenge at work on how to schedule tasks and have them only
 be picked up from the queue at a specified time in the future. Together with my team we figured
 was we needed to store the tasks in a sorted manner and only pick elements from the top of the sorted set. Some of the constraints involved here were:
