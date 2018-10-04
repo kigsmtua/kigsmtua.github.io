@@ -13,7 +13,7 @@ was we needed to store the tasks in a sorted manner and only pick elements from 
 > 1. At least once delivery
 > 2. Highly concurrent (we are doing millions of requests per day)
 > 3. No loss of messages
-> 4. Acknowlege delivery of messages
+> 4. Acknowledge delivery of messages
 
 On peeking I discovered redis has sorted sets which will enable us to solve most of the challenges we face here
 so the queue recipe goes as follows
