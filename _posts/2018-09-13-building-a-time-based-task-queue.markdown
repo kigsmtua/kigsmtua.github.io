@@ -104,7 +104,7 @@ The client enqueue does the following
 
 **how the worker module is build is build:<br/>**
 
-The worker  polls for the queue by getting the messages ready for execution. The messages ready for execution are gotten as below.
+The worker  polls for the queue by getting the messages ready for execution. The messages ready for execution are retrieved as below.
 ```java
 /**
  * Get the messages that are ready to execute. Messages only leave the queue
@@ -139,7 +139,16 @@ if (tasks.size() <= optimalPoolSize) {
 }
 ```
 
-**What next**<br/>
+Starting the worker is  as below :</br>
+
+```java
+
+  Worker worker = new Worker(config, queue);
+  Thread workerThread = new Thread(worker);
+  workerThread.start()
+
+```
+**What next:**<br/>
 
 I intent to use the [Quarsar](https://github.com/puniverse/quasar) library to use fibers instead of traditional threads  This will have jobs defined as Fibers such as below
 
