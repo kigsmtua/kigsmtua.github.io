@@ -8,7 +8,7 @@ tags: [Programming, Java, Concurrency, Fibers, Channels]
 ---
 <!-- The content of this blog  -->
 In the world of asynchronous task execution, we have to do execute tasks in the background. Some of this tasks need to be executed at specific times and no sooner. Traditionally we use rabbitmq as our queue, but seemingly ttl specification for rabbitmq does not seem to actually fit  this scenario as the queue recipe we want to achieve is as below:<br/>
-**Queue recipe<br/>**:
+**Queue recipe:<br/>**
 
 > 1. At least once delivery
 > 2. Acknowledge delivery of messages
@@ -17,7 +17,7 @@ In the world of asynchronous task execution, we have to do execute tasks in the 
 
 So I set out to build [Milau](https://github.com/kigsmtua/milau) a task queue that implements  the above recipe. Milau ships a client and a worker module that does all the work for you.<br/>
 
-**How do you build a time based queue<br/>**
+**How do you build a time based queue:<br/>**
 
 To build a time based queue you need to know when your jobs are due. After much brainstorming, I figured we need to store the elements in a data structure sorted by time, meaning on fetch you check for the elements that are between 0 and the current time , fetching only the jobs that are ready for execution at a specific time.
 
@@ -44,15 +44,15 @@ This in itself presents a problem, how big can does this queue have to grow in m
 
 This hence proves not to be a too optimal selection at scale.<br/>
 
-**Choosing redis<br/>**
+**Choosing redis:<br/>**
 
 Redis architecture lends nicely to queue design as it provides a set of data structures that can be used to schedule messages without coupling the application to this process as with the above example<br/>
 
-**Impelementing the queue recipe<br/>**
+**Impelementing the queue recipe:<br/>**
 
 Milau consists of two parts a client module, this module adds items to the Queue based on the time it needs to be executed<br/>
 
-*how the client module is build<br/>**
+*how the client module is build:<br/>**
 
 For each task 3 queues are created
 > 1. A sorted set containing elements stored by score (the score is what we call taskId) - jobs-queue
@@ -102,7 +102,7 @@ The client enqueue does the following
 > 2. Adds the message to the sorted set with the value from step one
 > 3. Add the message payload(properties and job class to be excuted) into a redis hashed set the key is the delay time gotten from step one.<br/>
 
-**how the worker module is build is build<br/>**
+**how the worker module is build is build:<br/>**
 
 The worker  polls for the queue by getting the messages ready for execution. The messages ready for execution are gotten as below.
 ```java
