@@ -52,7 +52,7 @@ Redis architecture lends nicely to queue design as it provides a set of data str
 
 Milau consists of two parts a client module, this module adds items to the Queue based on the time it needs to be executed<br/>
 
-*how the client module is build:<br/>**
+**how the client module is build:<br/>**
 
 For each task 3 queues are created
 > 1. A sorted set containing elements stored by score (the score is what we call taskId) - jobs-queue
