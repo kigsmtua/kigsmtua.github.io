@@ -7,7 +7,7 @@ img: workflow.jpg
 tags: [Programming, Java, Concurrency, Fibers, Channels]
 ---
 <!-- The content of this blog  -->
-In the world of asynchronous task execution, we have to do execute tasks in the background. Some of this tasks need to be executed at specific times and no sooner. Traditionally we use rabbitmq as our queue, but seemingly ttl specification for rabbitmq does not seem to actually fit  this scenario as the queue recipe we want to achieve is as below:<br/>
+In the world of asynchronous task execution, we have to execute tasks in the background. Some of this tasks need to be executed at specific times and no sooner. Traditionally we use rabbitmq as our queue, but seemingly ttl specification for rabbitmq does not seem to actually fit  this scenario as the queue recipe we want to achieve is as below:<br/>
 **Queue recipe:<br/>**
 
 > 1. At least once delivery
