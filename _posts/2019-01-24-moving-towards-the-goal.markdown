@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Moving Towards the Goal
+title: moving towards the goal
 date: 2018-09-13 10:00:00 +0300
 description: What to do in 2019
 img: mac.jpg
