@@ -8,7 +8,7 @@ tags: [Programming, Life, Goals]
 ---
 
 ---
-Work social ties
+Doing awesome things
 2. Read  2 books a month meaning 24 books in the year
 3. Produce  at least 10 times as much code as I wrote last year
 4. Make a major contribution to at least one haskell code base before the year end
