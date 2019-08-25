@@ -113,5 +113,5 @@ Naviagating to  http://127.0.0.1:8000/ we are greeted by our simple web applicat
 
 ![Running Hello world application]({{site.baseurl}}/assets/img/webapp.png)
 
-Congraculations! You are on the first step to building a messenger clone app
+congratulations! You are on the first step to building a messenger clone app
 ---
