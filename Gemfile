@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '2.3.1'
+ruby '2.6.3'
 
 gem 'github-pages'
 gem "nokogiri", ">= 1.8.5"
