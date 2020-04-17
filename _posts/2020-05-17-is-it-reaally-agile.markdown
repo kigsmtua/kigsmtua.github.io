@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Is it really agile ?
-date: 2019-07-29 10:00:00 +0300
+date: 2020-05-17 10:00:00 +0300
 description: My take on agile from a developer perspective
 img: workflow.jpg
 tags: [Deployments, devops, Agile , NoOps]
