@@ -7,7 +7,8 @@ img: workflow.jpg
 tags: [Deployments, devops, Agile , NoOps]
 ---
 
-**Is it really agile ?**
+#Is it really agile?
+
 This just jots down some ideas on what I consider to be a development workflow setup for success in an environment that claims to be agile. To be fair to everyone, I am no expert in matters agile and all this is from the take of a developers mindset.
 
 I look to answer the following questions
