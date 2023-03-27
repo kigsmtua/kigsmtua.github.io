@@ -1,0 +1,11 @@
+---
+layout: post
+title: What nexr
+date: 2023-03-27 10:00:00 +0300
+description: What next
+img: mac.jpg
+tags: [Programming, Life, Goals]
+---
+
+---
+What next?
