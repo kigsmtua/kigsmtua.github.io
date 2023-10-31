@@ -7,8 +7,6 @@ img: dashboard.png
 tags: [startups, announcments, collaboration]
 ---
 
-**Title:**
-
 Buggie.io: Revolutionizing Collaboration for Support Teams and Devs on Slack
 
 **Introduction:**
