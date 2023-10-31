@@ -7,13 +7,13 @@ img: dashboard.png
 tags: [startups, announcments, collaboration]
 ---
 
-**Title: </br>**
+**Title:**
 "Buggie.io: Revolutionizing Collaboration for Support Teams and Devs on Slack"
 
-**Introduction: </br>**
+**Introduction:**
 In the dynamic world of site reliability engineering, the challenges of bug tracking and collaboration are ever-present. Enter Buggie.io, a groundbreaking tool designed to bridge the communication gap between support teams, developers, and even amongst developers themselves on Slack and eventually Teams.
 
-**The Challenge:</br>**
+**The Challenge:**
 Having spent the last three years as a Site Reliability Engineer, the on-call experience brought forth a set of challenges. Escalations on bugs and production issues flooded in through Slack, posing hurdles like identifying the on-call person and knowing the status of issues across shifting schedules.
 
 1. *Identifying On-Call:*
