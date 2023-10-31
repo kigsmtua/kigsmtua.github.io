@@ -2,13 +2,14 @@
 layout: post
 title: Introducing our new product buggie
 date: 2023-10-31 10:00:00 +0300
-description: Buggie.io: Revolutionizing Collaboration for Support Teams and Devs on Slack
+description: Revolutionizing Collaboration for Support Teams and Devs on Slack
 img: dashboard.png
 tags: [startups, announcments, collaboration]
 ---
 
 **Title:**
-"Buggie.io: Revolutionizing Collaboration for Support Teams and Devs on Slack"
+
+Buggie.io: Revolutionizing Collaboration for Support Teams and Devs on Slack
 
 **Introduction:**
 In the dynamic world of site reliability engineering, the challenges of bug tracking and collaboration are ever-present. Enter Buggie.io, a groundbreaking tool designed to bridge the communication gap between support teams, developers, and even amongst developers themselves on Slack and eventually Teams.
