@@ -65,7 +65,7 @@ The 5 whys is a  good technique for identifying the root cause of an incident, a
 Start with the immediate cause (e.g., database instance failure) and ask "why" multiple times to uncover underlying issues. This method helps move beyond surface-level explanations and identify systemic issues that need addressing.
 
 
-4. Actions.
+4. Actions
 
 Now that we know what the root cause of our problem is we can define Actions that need to be taken. We have immediate actions, which should be taken and tackled immediately long term actions which we should definetely plan for and see how they will be done.
 
