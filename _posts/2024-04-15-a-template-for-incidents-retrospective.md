@@ -14,8 +14,8 @@ This article only covers an internal process, external communication to stakehol
 
 I  will try and look at two parts in this article, mostly focussing on the retrospective aspect of the incident.
 
-1.  ** During the incident**
-2.  ** A retrospective process**
+1.  **During the incident**
+2.  **A retrospective process**
 
 
 **During the incident**
