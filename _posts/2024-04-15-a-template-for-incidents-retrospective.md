@@ -79,4 +79,4 @@ After our template is ready, the next step is to share it with the rest of the e
 
 congratulations, you have defined a process for dealing with production incidents.
 
-<b>P.S</b> try out my tool [link](https://buggie.io/ "Buggie").  an tool for managing on-call, handovers and incidents on slack, we will be adding this template and process (customizable ofcourse) in the next release of the app. Hope you enjoy reading it.
+<b>P.S</b> try out my tool [buggie](https://buggie.io/ "Buggie").  an tool for managing on-call, handovers and incidents on slack, we will be adding this template and process (customizable ofcourse) in the next release of the app. Hope you enjoy reading it.
