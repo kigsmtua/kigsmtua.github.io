@@ -50,21 +50,21 @@ All people involved in the incident, should participate in filling out the templ
 
 Our templates has a couple of parts:
 
-1. Introduction
+- <b> Introduction</b>
 
 We describe the incident and what happened, what we found to be the issue and how we went ahead to the resolution
 
-2. Timeline
+- <b> Timeline </b>
 
 This will detail all individual timings as to when each action was taken, what action was taken basically what each and every minute of the incident was spent. In this maybe we will uncover some deficiencies in how we handled the incident as we do an analysis later on
 
-3. The five whys
+- <b> The five whys </b>
 
 The 5 whys is a good technique for identifying the root cause of an incident, as we ask questions that lead us in the right path until we come up with a solution. A detailed explanation of the 5 whys can be found here [The five whys](https://www.mindtools.com/a3mi00v/5-whys "The five whys").
 
 Start with the immediate cause (e.g., database instance failure) and ask "why" multiple times to uncover underlying issues. This method helps move beyond surface-level explanations and identify systemic issues that need addressing.
 
-4. Actions
+- <b> Actions</b>
 
 Now that we know what the root cause of our problem is we can define Actions that need to be taken. We have immediate actions, which should be taken and tackled immediately long term actions which we should definetely plan for and see how they will be done.
 
