@@ -60,7 +60,7 @@ This will detail all individual timings as to when each action was taken, what a
 
 3. The five whys
 
-The 5 whys is a  good technique for identifying the root cause of an incident, as we ask questions that lead us in the right path until we come up with a solution. A detailed explanation of the 5 whys can be found here https://www.mindtools.com/a3mi00v/5-whys
+The 5 whys is a  good technique for identifying the root cause of an incident, as we ask questions that lead us in the right path until we come up with a solution. A detailed explanation of the 5 whys can be found here [The five whys](https://www.mindtools.com/a3mi00v/5-whys "The five whys").
 
 Start with the immediate cause (e.g., database instance failure) and ask "why" multiple times to uncover underlying issues. This method helps move beyond surface-level explanations and identify systemic issues that need addressing.
 
